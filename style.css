@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.card{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: whitesmoke;
+}
+.person{
+    width: 400px;
+    background: rgb(222, 232, 222);
+    border-radius: 10px;
+    padding: 50px;
+    text-align: center;
+}
+
+.person h2{
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(53, 52, 47)
+}
+#input-file  {
+    display: none;
+}
+
+.person img{
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+.person label{
+    display: block;
+    margin: 10px auto;
+    padding: 5px;
+    width: 50%;
+    background: red;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
